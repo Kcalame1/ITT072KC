@@ -14,7 +14,7 @@ function renderHomework() {
     dashboardState.homework.forEach(function(homework) {
         const li = document.createElement("li");
 
-        li.textContent = "${homework.assignment} - ${homework.subject} - Due: ${homework.dueDate}";
+        li.textContent = `${homework.assignment} - ${homework.subject} - Due: ${homework.dueDate}`;
 
         const completeButton = document.createElement("button");
         completeButton.textContent = homework.completed ? "Completed" : "Mark Complete";
