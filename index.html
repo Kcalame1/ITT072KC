@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Homework Dashboard</title>
+</head>
+<body>
+    <header>
+    <h1>Homework Dashboard</h1>
+    <p>Stay organized and keep track of your assignments.</p>
+    </header>
+
+  <!-- Stats Area -->
+  <section id="stats">
+    <div>
+      <h2 id = "total-assignments">0</h2>
+      <p>Total Assignments</p>
+    </div>
+
+    <div>
+      <h2 id="completed-assignments">0</h2>
+      <p>Completed</p>
+    </div>
+
+    <div>
+      <h2 id="due-soon">0</h2>
+      <p>Due Soon</p>
+    </div>
+  </section>
+
+  <!-- Homework Form -->
+  <section>
+    <h2>Add Homework</h2>
+
+    <form id="homework-form">
+        <label for="assignment">Assignment:</label>
+        <input type="text" id="assignment" placeholder="Enter assignment">
+
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" placeholder="Enter subject">
+
+        <label for="due-date">Due Date</label>
+        <input type="date" id="due-date">
+
+        <button type="submit">Add Assignment</button>
+    </form>
+
+  </section>
+
+  <!-- Homework List -->
+   <section id="homework-list">
+    <ul id="task-list">
+
+    </ul>
+   </section>
+
+<!-- Settings area-->
+    <section id="settings">
+        <h2>Settings</h2>
+
+        <button id="theme-button">Toggle Theme</button>
+    </section>
+
+    <script src="index.js"></script>
+    
+</body>
+
+</html>
