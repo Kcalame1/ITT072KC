@@ -1,0 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #fff4df;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #2b1d1a;
+}
